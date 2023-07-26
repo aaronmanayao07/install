@@ -102,7 +102,6 @@ Username: $socksUser
 Password: $socksPass
 EOF
  fi
- echo -e " Your SOCKS5 Information Online: $(tr -d '\0' </tmp/socks5.txt)"
  echo -e ""
 }
 
